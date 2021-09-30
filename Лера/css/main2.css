@@ -1,0 +1,375 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 18px;
+	/*background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 42.54%, rgba(208, 165, 158, 0.2) 87.61%), linear-gradient(179.63deg, rgba(208, 165, 158, 0.5) 0.32%, rgba(208, 165, 158, 0) 33.85%);*/
+	/*font-family: 'Shadows Into Light Two', cursive;*/
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 42.54%, rgba(185, 141, 134, 0.2) 87.61%), linear-gradient(179.63deg, rgba(185, 141, 134, 0.5) 0.32%, rgba(217, 186, 182, 0.3) 33.85%);
+}
+html { scroll-behavior: smooth;}
+h1{
+	font-weight: 1000;
+	font-size: 30px;
+	line-height: 37px;
+	margin-top: 0px;
+}
+.rec{
+	width: 973px;
+	background: #FFFFFF;
+	border-radius: 0px 16px 16px 0px;
+	margin-left: -425px;
+}
+.rec h1{
+	width: 660px;
+	margin-left: 425px;
+}
+p{
+	color: black;
+	font-size: 18px;
+}
+.logo{
+margin-left: -30px;
+}
+
+.menu{
+	display: flex;
+	margin-left: -258px;
+	margin-top: 54px;
+	width: 797px;
+	justify-content: space-between;
+}
+
+li{
+	list-style-type: none;
+}
+
+.menu li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+/*	margin-right: 52px;*/
+	letter-spacing: 0.035em;
+	font-weight: bold;
+}
+.cos{
+	margin-left: 180px;
+	margin-top: 100px;
+	margin-bottom: -80px;
+}
+.cos img{
+	width: 100px;
+}
+.what{
+	margin-left: 200px;
+	margin-top: 51px;
+	width: 275px;
+	font-weight: 200px;
+	display: flex;
+}
+.what a{
+	color: black;
+	text-decoration: none;
+}
+.ph{
+	width: 22px;
+	height: 22px;
+	margin-left: auto;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+}
+.container1{
+	width: 1230px;
+	margin: 0 auto;
+	display: flex;
+}
+.container2{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+header{
+
+
+}
+section{
+
+}
+.one{
+margin-top: 48px;
+}
+
+.content{
+	font-size: 24px;
+	line-height: 29px;
+	width: 570px;
+	margin-top: 30px;
+}
+.foto_of_me{
+	margin-top: -113px;
+	margin-left: -25px;
+}
+.foto_of_me img{width: 570px;}
+.knopka{
+	margin-left: -29px;
+	margin-top: 42px;
+}
+.flow1{
+	margin-left: -23px;
+	margin-top: 95px;
+}
+.tub{
+	margin-left: -76px;
+	margin-top: 35px;
+}
+.two{
+margin-top: -37px;
+}
+.aml{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+	font-size: 44px;
+	padding-top: 52px;
+	padding-bottom: 52px;
+	background: white;
+}
+.white{
+	background: white;
+	display: flex;
+	margin-left: 200px;
+	height: 684px;
+}
+.description p{
+	font-size: 24px;
+	line-height: 29px;
+	padding-left: 32px;
+	width: 935px;
+	text-align: justify;
+	margin-top: 0em; 
+    margin-bottom: 0em;
+}
+ p.indent {
+	line-height: 29px;
+    text-indent: 25px;
+
+   }
+.photo{
+	margin-left: 59px;
+	margin-top: -67px;
+}
+
+.three{
+
+}
+.white2{
+	background: white;
+	width: 870px;
+	height: 735px;
+/*	margin-top: -249px;*/
+}
+.trees{
+	margin-left: 316px;
+/*	margin-top: -903px;*/
+margin-top: -903px;
+}
+.left{
+	margin-left: -137px;
+	margin-top: -273px;
+}
+.text{
+	margin-top: 77px;
+	margin-left: 90px;
+	font-size: 24px;
+line-height: 29px;
+text-align: justify;
+}
+.love{
+	margin-top: 41px;
+	margin-left: 394px;
+	margin-bottom: 42px;
+}
+.collag{
+	margin-left: 762px;
+	margin-top: -169px;
+}
+
+.soc{
+	width: 327px;
+	margin-top: -33px;
+	margin-bottom: 31.28px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+@media screen and (max-width: 1200px) 
+	{ 
+	.container { width: 1140px;}
+	.container1{width: 1170px;}
+	.logo{margin-left: 0px;}
+	.cos{margin-left: 130px;}
+	.container2 { width: 1140px;}
+	.what{margin-left: 80px;}
+	.flow1{margin-left: -103px;}
+	.info_me{margin-left: 20px;}
+
+	.foto_of_me{margin-left: -60px;}
+	.photo{margin-left: 10px;}
+	.white{margin-left: 130px;}
+	.left{margin-left: -107px;}
+	.description p{width: 835px;}
+	.white2{width: 850px; height: 835px; margin-left: 50px;}
+	.soc{margin-left: 30px;}
+
+}
+
+
+
+
+@media screen and (max-width: 1050px) 
+{   .container { width: 720px;}
+	.container1{width: 750px;}
+	.logo{margin-left: -80px;}
+	.logo img{width: 338px; margin-left: 0px;}
+	.menu{margin-top: 150px; width: 500px;}
+	.cos{margin-left: 80px; display: none;}
+	.container2 { width: 720px; margin-left: -50px;}
+	.what{margin-left: 30px;}
+	.flow1{margin-left: -133px;}
+	.info_me{margin-left: -30px;}
+	.rec{width: 953px;}
+	.rec h1{width: 550px;}
+	.content{width: 470px;}
+	.foto_of_me{margin-left: -140px; margin-top: -80px;}
+	.photo{margin-left: 10px;}
+	.white{margin-left: 0px;}
+	.description p{width: 635px;}
+	.left{margin-left: -187px;}
+	.white2{width: 740px; height: 935px; margin-left: 100px;}
+	.text{margin-left: 120px;}
+	.love{margin-left: 430px;}
+	.soc{margin-left: -30px;}
+
+}
+
+@media screen and (max-width: 797px) 
+{ .container { width: 540;}
+	.container1{width: 580px;}
+	.container2 { width: 720px; margin-left: -50px;}
+	.logo img{width: 300px; margin-left: 0px;}
+	.cos{margin-left: 20px; margin-top: 100px;}
+	.cos img{width: 93px;}
+	.rec{width: 845px;}
+	.info_me{margin-left: 20px;}
+	.info_me h1{font-size: 26px; width: 419px;}
+	.content{width: 419px; font-size: 20px;}
+	.knopka img{width: 231px;}
+	.foto_of_me{margin-left: -56px; margin-top: -80px;}
+	.foto_of_me img{width: 400px;}
+	.flow1{margin-left: -113px; margin-top: 20px}
+	.flow1 img{width: 59px;}
+	.tub{margin-left: -30px; margin-top: -15px;}
+	.tub img{width: 124px;}
+	.aml{margin-top: -84px;}
+	.white{margin-left: 135px; width: 660px;}
+	.description p{font-size: 20px; width: 485px; margin-left: 20px; padding-right: 50px;}
+	.description{}
+
+	.photo{margin-left: -40px;}
+	.photo img{width: 66px;}
+	.left{margin-left: -10px;}
+	.left img{width: 138px;}
+
+	.white2{width: 740px; height: 835px; margin-left: 100px;}
+	.trees{margin-top: -740px; margin-left: 220px;}
+	.trees img{width: 400px;}
+	.text{margin-left: 150px; font-size: 21px;}
+	.love{margin-left: 430px;}
+	.love img{width: 60px;}
+	.collag{margin-left: 672px;}
+	.collag img{width: 190px;}
+	.soc{margin-left: 20px;}
+
+
+}
+
+@media screen and (max-width: 680px) 
+{.white{margin-left: 50px}
+.left{margin-left: -20px;}
+.content{width: 389px;}
+.foto_of_me{margin-left: -126px;}
+.logo{margin-left: -30px;}
+.logo img{width: 308px; margin-left: 0px;}
+.trees{margin-left: 170px;}
+.text{margin-left: 130px; }
+.love{margin-left: 360px;}
+}
+
+
+@media screen and (max-width: 585px) 
+{ .container { width: 100%;
+
+	flex-direction: column-reverse;}
+	.container1{width: 100%;flex-direction: column;}
+	.container2{width: 100%; margin-left: auto; margin-right: auto;}
+	.logo{margin-left: auto; margin-right: auto;}
+	.menu{margin-left: 15px; margin-right: auto; width: 80%; margin-top: 20px;}
+	.what{display: none;}
+	.cos{display: none;}
+	.info_me{margin-left: auto; margin-right: auto; width: 90%;}
+	.foto_of_me{margin-left: auto; margin-right: auto; margin-top: -130px;}
+	.description p{font-size: 21px; width: 90%}
+	.description{margin-left: auto; margin-right: auto; width: 100%;}
+	.photo{margin-left: auto;}
+	.rec{margin-left: auto; margin-right: auto; border-radius: 16px 16px 16px 16px; width: 100%;}
+	.info_me h1{font-size: 22px; width: 100%; margin-left: auto; margin-right: auto; padding-left: 10px;}
+	.content{width: 90%; font-size: 17px; margin-left: 0px;}
+	.knopka {margin-top: 10px; margin-left: -23px;}
+
+	.aml{margin-top: -84px;}
+	.white{margin-left: auto; margin-right: auto; width: 100%;}
+	.description p{font-size: 18px; width: 80%; margin-left: auto; margin-right: auto;}
+	.description{}
+
+	.photo{margin-left: -80px;}
+	.photo img{width: 66px;}
+	.left{display: none;}
+
+	.white2{width: 100%; height: 990px; margin-left: auto; margin-right: auto;}
+	.trees{margin-top: -740px; width: 100%;}
+	.trees img{width: 60%; margin-left: -90px; margin-right: auto;}
+	.text{margin-left: auto; margin-right: auto; width: 80%; font-size: 18px;}
+	.love{margin-left: auto; margin-right: auto; text-align: center;}
+	.love img{width: 60px;}
+	.collag{margin-left: 672px;}
+	.collag img{width: 190px;}
+	.soc{margin-left: auto; margin-right: auto; width: 90%;}
+	.contact .container{background: white;}
+
+}
+
+@media screen and (max-width: 456px)
+{
+	.white2{height: 1100px;}
+}
+
+@media screen and (max-width: 408px)
+{
+	.white2{height: 1200px;}
+}
+
+@media screen and (max-width: 340px)
+{
+	.white2{height: 1400px;}
+}
+
+@media screen and (max-width: 321px)
+{
+	.white2{height: 1550px;}
+}
